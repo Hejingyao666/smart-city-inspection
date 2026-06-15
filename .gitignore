@@ -1,0 +1,57 @@
+# ============================================================
+# ODPlatform .gitignore
+# ============================================================
+
+# 操作系统文件
+Thumbs.db
+.DS_Store
+*.swp
+*.bak
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+*.egg
+
+# 测试
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# 日志和缓存
+logs/
+runs/
+.cache/
+*.log
+
+# 数据和模型（大文件，不需要上传）
+data/
+# models/  # 取消注释：如果想上传训练好的模型
+
+# 临时目录
+.adr/
+.odp-meta/
+odp_platform.cli.reset_project/
+screenshots_beautify/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# 打包文件
+*.dist/
+*.build/
+*.exe
+*.zip
+*.tar.gz
+# 打包构建目录
+build/
+dist/

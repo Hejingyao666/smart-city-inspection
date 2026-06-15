@@ -1,0 +1,27 @@
+path: C:/Users/14041/Desktop/DIOR_YOLO_20260612
+train: train/images
+val: val/images
+test: test/images
+
+nc: 20
+names:
+  0: golffield
+  1: Expressway-toll-station
+  2: vehicle
+  3: trainstation
+  4: chimney
+  5: storagetank
+  6: ship
+  7: harbor
+  8: airplane
+  9: groundtrackfield
+  10: tenniscourt
+  11: dam
+  12: basketballcourt
+  13: Expressway-Service-area
+  14: stadium
+  15: airport
+  16: baseballfield
+  17: bridge
+  18: windmill
+  19: overpass

@@ -1,0 +1,22 @@
+[project]
+name = "odp-desktop"
+version = "0.1.0"
+description = "ODPlatform Desktop Application"
+requires-python = ">=3.10"
+
+dependencies = [
+    "PyQt6>=6.7.0",
+    "ultralytics>=8.0.0",
+    "Pillow>=10.0.0",
+    "matplotlib>=3.8.0",
+]
+
+[project.scripts]
+odp-desktop = "odp_desktop.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

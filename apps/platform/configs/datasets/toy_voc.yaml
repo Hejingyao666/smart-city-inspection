@@ -1,0 +1,32 @@
+path: D:\od\ODPlatform\data
+train: train/images
+val: val/images
+test: test/images
+nc: 9
+names:
+  0: Potato leaf early blight
+  1: grape leaf
+  2: grape leaf black rot
+  3: Bell_pepper leaf
+  4: Potato leaf
+  5: Peach leaf
+  6: Tomato leaf
+  7: Corn leaf blight
+  8: Apple Scab Leaf
+odp_meta:
+  dataset: toy_voc
+  source_format: pascal_voc
+  task: detect
+  created_at: '2026-06-15T20:46:16'
+  split:
+    strategy: random
+    train_rate: 0.8
+    val_rate: 0.1
+    test_rate: 0.1
+    random_state: 42
+    counts:
+      train: 11
+      val: 1
+      test: 2
+      total: 14
+  schema_version: 1
